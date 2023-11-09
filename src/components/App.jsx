@@ -1,3 +1,6 @@
+import { Counter } from "./Feedback/Feedback";
+
+
 export const App = () => {
   return (
     <div
@@ -10,7 +13,10 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
+     <Counter  state = {{ good: 0,
+        neutral: 0,
+        bad: 0 }}/>
+        
     </div>
   );
 };
