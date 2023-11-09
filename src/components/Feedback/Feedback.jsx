@@ -10,7 +10,6 @@ export class Counter extends React.Component {
         neutral: 0,
         bad: 0
       };
-option = Object.hasO
 count = (key) => {
              this.setState(prevState => { return {[key]: prevState[key] + 1,};})
         }
