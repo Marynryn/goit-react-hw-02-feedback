@@ -13,7 +13,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-     <Counter  state = {{ good: 0,
+     <Feedback  state = {{ good: 0,
         neutral: 0,
         bad: 0 }}/>
         
