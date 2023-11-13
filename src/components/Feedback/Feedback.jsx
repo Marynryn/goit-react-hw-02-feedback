@@ -4,7 +4,7 @@ import Statistics from "components/Statistics/Statistics";
 import FeedbackOptions from "components/FeedbackOptions/FeedbackOptions";
 import Section from "components/Section/Section";
 import Notification from "components/Notification/Notification";
-export class Counter extends React.Component {
+export class Feedback extends React.Component {
     state = {
         good: 0,
         neutral: 0,
