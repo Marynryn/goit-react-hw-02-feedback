@@ -1,4 +1,4 @@
-import { Counter } from "./Feedback/Feedback";
+import { Feedback } from "./Feedback/Feedback";
 
 
 export const App = () => {
@@ -13,10 +13,12 @@ export const App = () => {
         color: '#010101'
       }}
     >
-     <Feedback  state = {{ good: 0,
+      <Feedback state={{
+        good: 0,
         neutral: 0,
-        bad: 0 }}/>
-        
+        bad: 0
+      }} />
+
     </div>
   );
 };
