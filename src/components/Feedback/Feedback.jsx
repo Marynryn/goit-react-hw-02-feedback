@@ -13,7 +13,7 @@ export class Feedback extends React.Component {
     bad: 0
   };
   count = (key) => {
-    this.setState(prevState => { return { [key]: prevState[key] + 1, }; })
+    this.setState(prevState => { return { [key]: prevState[key] + 1 }; })
   }
 
   countTotalFeedback = () => {
